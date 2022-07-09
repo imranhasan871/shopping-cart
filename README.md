@@ -18,4 +18,6 @@ You can also pay for your order. You can also see the total price of your order.
 
 ## Live Demo
 
+[Live Demo](https://imranhasan871.github.io/shopping-cart/)
+
 ## Screenshots
