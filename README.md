@@ -21,5 +21,4 @@ You can also pay for your order. You can also see the total price of your order.
 [Live Demo](https://imranhasan871.github.io/shopping-cart/)
 
 ## Screenshots
-
-![shopping-cart](https://user-images.githubusercontent.com/33188928/178093955-adfdc6b6-adaa-4b2c-9483-9e7e67c6b42b.png)
+![shopping-cart](https://user-images.githubusercontent.com/33188928/178094861-b5df1130-57df-44b0-bede-50e4ca941f29.png)
