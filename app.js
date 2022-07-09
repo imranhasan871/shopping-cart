@@ -21,3 +21,14 @@ function handelProductChange(product, isIncrease) {
     document.getElementById(product + '-total').innerText =
         '$ ' + productNewTotal;
 }
+
+function handelCheckout() {
+    const caseInput = document.getElementById('case-count');
+    const caseCount = parseInt(caseInput.value);
+    const phoneInput = document.getElementById('phone-count');
+    const phoneCount = parseInt(phoneInput.value);
+
+    const totalPrice = caseCount * 59 + phoneCount * 1219;
+    document.getElementById('total-price').innerText = '$ ' + totalPrice;
+
+}
