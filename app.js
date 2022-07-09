@@ -10,6 +10,14 @@ function handelProductChange(product, isIncrease) {
     }
     caseInput.value = caseNewCount;
 
-    const caseTotal = caseNewCount * 59;
-    document.getElementById(product + '-total').innerText = '$ ' + caseTotal;
+    let productNewTotal = 0;
+    if (product == 'case') {
+        productNewTotal = caseNewCount * 59;
+    }
+    if (product == 'phone') {
+        productNewTotal = caseNewCount * 1219;
+    }
+
+    document.getElementById(product + '-total').innerText =
+        '$ ' + productNewTotal;
 }
